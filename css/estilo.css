@@ -1,4 +1,12 @@
-.background{
-    background-image: url("../img/pexels-sergio-souza-2291006.jpg");
-    background-size: cover;
+.container-background{
+    /*background-image: url("../img/pexels-sergio-souza-2291006.jpg");*/
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.login{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: 5% 0 0 35%;
+    border-radius: 10px;
 }
