@@ -1,0 +1,17 @@
+.body{
+    background-image: image("campo.jpeg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+.logo{
+    width: 72px;
+    height: 72px;
+    border-radius: 25px;
+}
+.container-login{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
