@@ -9,11 +9,22 @@
     height: 72px;
     border-radius: 25px;
 }
+
 .container-login{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+.container-tela{
     width: 400px;
     height: 400px;
     margin: auto;
 }
 .footer{
     text-align: center;
+}
+.navTelas{
+    align:left;
+    width:40px;
+    height: 40px;
 }
