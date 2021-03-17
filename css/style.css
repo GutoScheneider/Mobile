@@ -1,4 +1,5 @@
 .body{
+    background-image: url("../img/campo.jpg");
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -19,6 +20,7 @@
     width: 400px;
     height: 400px;
     margin: auto;
+
 }
 .footer{
     text-align: center;
