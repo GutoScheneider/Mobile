@@ -1,3 +1,4 @@
+/*Tela para PC*/
 .body{
     background-image: url("../img/campo.jpg");
     background-attachment: fixed;
@@ -6,8 +7,8 @@
     background-color: white;
 }
 .logo{
-    width: 72px;
-    height: 72px;
+   width: 200px;
+    height: 200px;
     border-radius: 25px;
 }
 
@@ -24,6 +25,7 @@
     width: 400px;
     height: 400px;
     margin: auto;
+    display: flex;
     justify-content: center;
     align-items: center;
 
@@ -31,9 +33,193 @@
 .footer{
     text-align: center;
     text-color:#000000;
+    display: flex;
+    position: center;
 }
 .navTelas{
     align:left;
     width:40px;
     height: 40px;
+}
+
+/*Medias query*/
+/* 576 ~ 767px */
+@media (max-width: 768px) {
+    .body{
+        background-image: url("../img/campo.jpg");
+        background-attachment: fixed;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: white;
+    }
+    .logo{
+        width: 75px;
+        height: 75px;
+        border-radius: 25px;
+    }
+
+    .container-login{
+        width: 384px;
+        height: 384px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .container-tela{
+        width: 384px;
+        height: 384px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .footer{
+        text-align: center;
+        text-color:#000000;
+        display: flex;
+        position: center;
+    }
+    .navTelas{
+        align:left;
+        width:40px;
+        height: 40px;
+    }
+}
+/* 768 ~ 991px */
+@media (max-width: 992px) {
+    .body{
+        background-image: url("../img/campo.jpg");
+        background-attachment: fixed;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: white;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+    }
+
+    .container-login{
+        width: 496px;
+        height: 496px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .container-tela{
+        width: 496px;
+        height: 496px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .footer{
+        text-align: center;
+        text-color:#000000;
+        display: flex;
+        position: center;
+    }
+    .navTelas{
+        align:left;
+        width:50px;
+        height: 50px;
+    }
+}
+/* 992 ~ 1199px  */
+@media (max-width: 1200px) {
+    .body{
+        background-image: url("../img/campo.jpg");
+        background-attachment: fixed;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: white;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+    }
+
+    .container-login{
+        width: 496px;
+        height: 496px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .container-tela{
+        width: 496px;
+        height: 496px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .footer{
+        text-align: center;
+        text-color:#000000;
+        display: flex;
+        position: center;
+    }
+    .navTelas{
+        align:left;
+        width:50px;
+        height: 50px;
+    }
+}
+/* >=1200px  */
+@media (min-width: 1201px) {
+    .body{
+        background-image: url("../img/campo.jpg");
+        background-attachment: fixed;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: white;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+    }
+
+    .container-login{
+        width: 496px;
+        height: 496px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .container-tela{
+        width: 496px;
+        height: 496px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .footer{
+        text-align: center;
+        text-color:#000000;
+        display: flex;
+        position: center;
+    }
+    .navTelas{
+        align:left;
+        width:50px;
+        height: 50px;
+    }
 }
