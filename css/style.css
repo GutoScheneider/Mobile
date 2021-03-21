@@ -15,15 +15,22 @@
     width: 400px;
     height: 400px;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .container-tela{
     width: 400px;
     height: 400px;
     margin: auto;
+    justify-content: center;
+    align-items: center;
 
 }
 .footer{
     text-align: center;
+    text-color:#000000;
 }
 .navTelas{
     align:left;
