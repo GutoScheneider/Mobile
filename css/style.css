@@ -54,6 +54,11 @@
     align-items: center;
     flex-flow: row nowrap
 }
+.sorteioTimes{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
 
 /*Medias query*/
 /* 576 ~ 767px */
