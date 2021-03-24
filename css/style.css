@@ -7,9 +7,24 @@
     background-color: white;
 }
 .logo{
-   width: 200px;
-    height: 200px;
+   width: 32px;
+    height: 32px;
     border-radius: 25px;
+}
+.content{
+    margin-top: 200px;
+}
+
+.menu {
+  height: 100px;
+  overflow: auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #404040;
+  width: 80%;
+}
+.menuModal{
+  background: #ccc;
+
 }
 
 .container-login{
@@ -116,8 +131,8 @@
         background-color: white;
     }
     .logo{
-        width: 100px;
-        height: 100px;
+        width: 32px;
+        height: 32px;
         border-radius: 50px;
     }
 
@@ -161,8 +176,8 @@
         background-color: white;
     }
     .logo{
-        width: 100px;
-        height: 100px;
+        width: 32px;
+        height: 32px;
         border-radius: 50px;
     }
 
@@ -206,8 +221,8 @@
         background-color: white;
     }
     .logo{
-        width: 100px;
-        height: 100px;
+        width: 32px;
+        height: 32px;
         border-radius: 50px;
     }
 
