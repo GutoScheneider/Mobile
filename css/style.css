@@ -1,35 +1,58 @@
-/*Tela para PC*/
-.body{
+ .body{
     background-image: url("../img/campo.jpg");
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: white;
+    height: 100vh
 }
 .logo{
-    width: 100px;
-    height: 100px;
-    border-radius: 25px;
+    width: 200px;
+    height: 200px;
+    border-radius: 75px;
 }
 .content{
-    margin-top: 200px;
+
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu {
-  height: 100px;
-  overflow: auto;
-  border-radius: 10px;
-  box-shadow: 10px 10px 10px #404040;
-  width: 80%;
+    height: 500px;
+    overflow: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #404040;
+
 }
 .menuModal{
-  background: #ccc;
+    background: #ccc;
 
 }
+.menuAtletas{
+    padding-top: 250px;
+    width: 100%;
+}
+.menuMensalidade{
+    height: 500px;
+    overflow: auto;
+    padding-top: 100px
+}
+ .table > tbody > tr > td{
+     text-align: center;
+ }
+ .menuSorteioTimes{
+     height: 500px;
+     overflow: auto;
+     padding-top: 100px
+ }
 
-.container-login{
 
-   /* margin: auto;*/
+.container{
+
+    /* margin: auto;*/
     /*Flexbox*/
     display: flex;
     flex-flow: row nowrap; /*é igual ao flex-direction e flex-wrap*/
