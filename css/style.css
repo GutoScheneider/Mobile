@@ -29,7 +29,6 @@
 }
 .menuModal{
     background: #ccc;
-
 }
 .menuAtletas{
     padding-top: 250px;
@@ -38,16 +37,18 @@
 .menuMensalidade{
     height: 500px;
     overflow: auto;
-    padding-top: 100px
+    padding-top: 120px;
 }
+
+.menuSorteioTimes{
+     height: 500px;
+     overflow: auto;
+     padding-top: 160px
+ }
  .table > tbody > tr > td{
      text-align: center;
  }
- .menuSorteioTimes{
-     height: 500px;
-     overflow: auto;
-     padding-top: 100px
- }
+
 
 
 .container{
